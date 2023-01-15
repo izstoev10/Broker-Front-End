@@ -5,7 +5,7 @@ import { citites } from "../../../../__mocks__/cities";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import useGetCity from "../../../../hooks/use-get-city";
 import { districts } from "../../../../__mocks__/districts";
-import AutocompleteDropdown from "../../../common/forms/autocomplete";
+import AutocompleteDropdown from "../../../../components/common/forms/autocomplete";
 import useGetFormFocusState from "../../../../hooks/use-get-form-focus-state";
 
 const GoogleMapsFiltersCity = () => {

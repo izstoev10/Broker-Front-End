@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Typography, Slider, Grid, MenuItem } from "@mui/material";
-import ButtonCTA from "../../common/buttonCTA";
+import ButtonCTA from "../../../components/common/buttonCTA";
 import { useGoogleMapsContext } from "../../../contexts/google-maps-context";
 import {
   GoogleMapsLocationPopUpButtonGrid,
@@ -9,7 +9,7 @@ import {
   GoogleMapsLocationPopUpIcon,
   GoogleMapsLocationPopUpWrapper,
 } from "./styled";
-import Dropdown from "../../common/forms/dropdown";
+import Dropdown from "../../../components/common/forms/dropdown";
 import { propertyTypes } from "../../../__mocks__/propertyTypes";
 import { Formik } from "formik";
 import GoogleMapsFiltersRange from "../google-maps-filters/google-maps-filters-range";

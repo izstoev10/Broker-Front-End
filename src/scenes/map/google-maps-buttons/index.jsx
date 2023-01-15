@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import AdjustIcon from "@mui/icons-material/Adjust";
-import ButtonCTA from "../../common/buttonCTA";
+import ButtonCTA from "../../../components/common/buttonCTA";
 import { useGoogleMapsContext } from "../../../contexts/google-maps-context";
 import { Box, Grid, MenuItem, Select } from "@mui/material";
 import GoogleMapsLocationPopUp from "../google-maps-location-popup";

@@ -1,6 +1,6 @@
 import React from "react";
 import { Grid } from "@mui/material";
-import TextInput from "../../../common/forms/text-input";
+import TextInput from "../../../../components/common/forms/text-input";
 
 const GoogleMapsFiltersRange = ({ minLabel, minName, maxLabel, maxName }) => {
   return (

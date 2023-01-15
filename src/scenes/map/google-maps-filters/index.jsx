@@ -1,14 +1,14 @@
 import { Grid, MenuItem, Typography } from "@mui/material";
 import React from "react";
 import { useGoogleMapsContext } from "../../../contexts/google-maps-context";
-import ButtonCTA from "../../common/buttonCTA";
+import ButtonCTA from "../../../components/common/buttonCTA";
 import GoogleMapsFiltersRange from "./google-maps-filters-range";
 import { GoogleMapsFiltersGrid, GoogleMapsFiltersWrapper } from "./styled";
 import { Formik } from "formik";
 import googleMapsFiltersValidationSchema from "../../../lib/yup/google-maps-filter-schema";
 import googleMapsInitialValues from "../../../lib/yup/google-maps-initial-value";
 import GoogleMapsFiltersCity from "./google-maps-filters-city";
-import Dropdown from "../../common/forms/dropdown";
+import Dropdown from "../../../components/common/forms/dropdown";
 
 const GoogleMapsFilters = () => {
   const { isFilterTabOpen, handleToggleFiltersTab } = useGoogleMapsContext();
