@@ -6,6 +6,8 @@ import { ProSidebarProvider } from "react-pro-sidebar";
 import Topbar from "./scenes/global/Topbar";
 import TheSidebar from "./scenes/global/TheSidebar";
 import Tenants from "./scenes/tenants";
+import CalendarComp from "./scenes/calendar";
+import MapComp from "./scenes/map";
 // import Invoices from "./scenes/global/Invoices";
 // import Contacts from "./scenes/global/Contacts";
 // import Bar from "./scenes/global/Bar";
@@ -62,6 +64,8 @@ function App() {
             <Routes>
               <Route path="/" element={<Dashboard />} />
               <Route path="/tenants" element={<Tenants />} />
+              <Route path="/calendar" element={<CalendarComp />} />
+              <Route path="/map" element={<MapComp />} />
               {/*<Route path="/contacts" element={<Contacts/>} />
                 <Route path="/invoices" element={<Invoices/>} />
                 <Route path="/form" element={<Form/>} />
